@@ -42,6 +42,11 @@ class CaptchaBuilder implements CaptchaBuilderInterface
      * @var array
      */
     protected $backgroundImages = array();
+    
+    /**
+     * @var resource
+     */
+    protected $background = null;
 
     /**
      * @var resource
